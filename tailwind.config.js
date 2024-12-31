@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{vue,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        bannerImage: "url('/hero.jpg')",
+      },
+    },
+    fontFamily: {
+      Averia: ["Averia Serif Libre", "serif"],
+    },
   },
   plugins: [],
 }
